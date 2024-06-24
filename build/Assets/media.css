@@ -1,0 +1,190 @@
+@media (max-width: 768px) {
+
+    /* Header section */
+    .nav nav {
+        display: none;
+    }
+
+    .nav i {
+        display: block;
+        position: relative;
+        float: right;
+        font-size: 2rem;
+        margin-right: 10%;
+    }
+
+    .nav i:hover {
+        cursor: pointer;
+    }
+
+    /* Hero Section */
+
+    .hero .heroBox {
+        position: relative;
+        top: 20%;
+    }
+
+    /* Future section */
+    .futureCont {
+        width: 90%;
+        height: 90%;
+        flex-direction: column;
+    }
+
+    .futImg {
+        display: flex;
+        flex-direction: row;
+        height: 60%;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .futImg .futImg1,
+    .futImg2,
+    .futImg3,
+    .futImg4 {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        width: 45vw;
+        height: 50%;
+    }
+
+    .futImg3 {
+        border-radius: 0 50px 0 0;
+    }
+
+    .futImg4 {
+        border-radius: 0 0 50px 0;
+    }
+
+    .futWrit {
+        width: 70vw;
+        text-align: center;
+    }
+
+    .futWrit h2 {
+        font-size: 2.3rem;
+    }
+
+    .futWrit p {
+        font-family: "Lato", sans-serif;
+        font-style: normal;
+        font-size: 1.2rem;
+    }
+
+    /* Feature Section */
+    .feature {
+        gap: 1.5%;
+    }
+    .featWrit {
+        width: 80%;
+    }
+    .featWrit h2 {
+        font-size: 2.5rem;
+    }
+    .featWrit p {
+        font-size: 1.2rem;
+    }
+
+    .feat {
+        padding: 0 5%;
+        flex-wrap: wrap;
+    }
+    #feat {
+        width: 35vw;
+        margin: 2% 1%;
+    }
+    .feat i {
+        font-size: 3rem;
+        margin-bottom: 2%;
+    }
+    .feat h4 {
+        font-size: 1.5rem;
+    }
+    #feat p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        background-size: cover;
+        background-position: center;
+    }
+    .hero .heroBox {
+        width: 65%;
+        top: 3%;
+        padding: 50px;
+    }
+    
+    .hero .heroBox h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero .heroBox p {
+        font-size: 1.2rem;
+    }
+
+    .futureCont {
+        width: 90%;
+        height: 85%;
+        flex-direction: column;
+    }
+
+    .futImg {
+        height: 50%;
+    }
+
+    .futImg .futImg1,
+    .futImg2,
+    .futImg3,
+    .futImg4 {
+        background-position: center;
+        background-size: 100% 100%;
+        width: 45vw;
+        height: 50%;
+    }
+
+    .futWrit h2 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .futWrit p {
+        font-size: 1.3rem;
+    }
+
+    /* Feature Section */
+    .feature {
+        gap: 2%;
+    }
+    .featWrit {
+        width: 90%;
+        margin: 0;
+        padding: 2%;
+    }
+    .featWrit h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .featWrit p {
+        font-size: 1.2rem;
+    }
+    #feat {
+        gap: 5px;
+        width: 100%;
+        margin: 0 4%;
+        margin-bottom: 5%;
+        padding: 5%;
+        height: 10vh;
+    }
+    .feat {
+        padding: 0%;
+    }
+    .feat i {
+        font-size: 1.5rem;
+        margin-bottom: 1%;
+    }
+}

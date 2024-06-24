@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html {
+    font-family: "lato", serif;
+    width: 100vw;
+    height: auto;
+    color: #181A18;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    background-color: #fff;
+    display: block;
+}
+
+
+/* Header styles */
+header {
+    width: 100%;
+}
+
+.box {
+    padding: 1% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(./images/Logo.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 58px;
+}
+
+/* navigation menu styles */
+.nav {
+    width: 361px;
+    height: 24px;
+    background-color: transparent;
+}
+
+.nav i {
+    display: none;
+}
+
+.nav nav ul,
+a {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nav a:hover {
+    color: #206620;
+    font-weight: bolder;
+    text-decoration: underline;
+    transition-duration: 1s;
+}
+
+
+/* Hero styles */
+.hero {
+    background-image: url(./images/Hero.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .heroBox {
+    width: 25%;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 0 50px 50px 0;
+    position: relative;
+    top: 25%;
+}
+
+.hero .heroBox h1 {
+    line-height: 2.5rem;
+    font-size: 2rem;
+    margin-bottom: 2%;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.hero .heroBox p {
+    line-height: 1.2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/* Future styles */
+.future {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+}
+
+.futureCont {
+    width: 80%;
+    height: 55%;
+    margin: auto;
+    border: transparent;
+    border-radius: 50px;
+    display: flex;
+    background-color: #F2F0F2;
+}
+
+.futImg {
+    display: flex;
+    flex-direction: row;
+}
+
+.futImg .futImg1,
+.futImg2,
+.futImg3,
+.futImg4 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 20vw;
+    height: 50%;
+}
+
+.futWrit {
+    margin: auto;
+    width: 30vw;
+}
+
+.futWrit h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.futWrit p {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-size: 0.8rem;
+}
+
+/* Feature styles */
+.feature {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8%;
+}
+
+.featWrit {
+    display: grid;
+    width: 60%;
+    margin: 0 auto 5% auto;
+    text-align: center;
+}
+
+.featWrit h2 {
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+.feat {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+#feat {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: transparent 50px;
+    border-radius: 25px;
+    background-color: #E2F1E8;
+    padding: 3%;
+    width: 300px;
+    margin: 0 1%;
+}
+
+.feat i {
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
